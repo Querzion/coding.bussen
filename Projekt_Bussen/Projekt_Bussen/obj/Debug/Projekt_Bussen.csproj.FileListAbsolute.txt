@@ -1,0 +1,16 @@
+C:\Users\iam\Documents\LOTG-CODE101\Hermods\Programmering 1 - C# (SeeSharp)\Modul 5\Uppdrag 4\Projekt_Bussen\Projekt_Bussen\obj\Debug\Projekt_Bussen.csproj.AssemblyReference.cache
+C:\Users\iam\Documents\LOTG-CODE101\Hermods\Programmering 1 - C# (SeeSharp)\Modul 5\Uppdrag 4\Projekt_Bussen\Projekt_Bussen\obj\Debug\Projekt_Bussen.csproj.SuggestedBindingRedirects.cache
+C:\Users\iam\Documents\LOTG-CODE101\Hermods\Programmering 1 - C# (SeeSharp)\Modul 5\Uppdrag 4\Projekt_Bussen\Projekt_Bussen\obj\Debug\Projekt_Bussen.csproj.CoreCompileInputs.cache
+C:\Users\iam\Documents\LOTG-CODE101\Hermods\Programmering 1 - C# (SeeSharp)\Modul 5\Uppdrag 4\Projekt_Bussen\Projekt_Bussen\bin\Debug\Projekt_Bussen.exe.config
+C:\Users\iam\Documents\LOTG-CODE101\Hermods\Programmering 1 - C# (SeeSharp)\Modul 5\Uppdrag 4\Projekt_Bussen\Projekt_Bussen\bin\Debug\Projekt_Bussen.exe
+C:\Users\iam\Documents\LOTG-CODE101\Hermods\Programmering 1 - C# (SeeSharp)\Modul 5\Uppdrag 4\Projekt_Bussen\Projekt_Bussen\bin\Debug\Projekt_Bussen.pdb
+C:\Users\iam\Documents\LOTG-CODE101\Hermods\Programmering 1 - C# (SeeSharp)\Modul 5\Uppdrag 4\Projekt_Bussen\Projekt_Bussen\obj\Debug\Projekt_Bussen.exe
+C:\Users\iam\Documents\LOTG-CODE101\Hermods\Programmering 1 - C# (SeeSharp)\Modul 5\Uppdrag 4\Projekt_Bussen\Projekt_Bussen\obj\Debug\Projekt_Bussen.pdb
+C:\Users\iam\Documents\LOTG-CODE101\Hermods\Programmering 1 - C#\Modul 5\Uppdrag 4\Projekt_Bussen\Projekt_Bussen\bin\Debug\Projekt_Bussen.exe.config
+C:\Users\iam\Documents\LOTG-CODE101\Hermods\Programmering 1 - C#\Modul 5\Uppdrag 4\Projekt_Bussen\Projekt_Bussen\bin\Debug\Projekt_Bussen.exe
+C:\Users\iam\Documents\LOTG-CODE101\Hermods\Programmering 1 - C#\Modul 5\Uppdrag 4\Projekt_Bussen\Projekt_Bussen\bin\Debug\Projekt_Bussen.pdb
+C:\Users\iam\Documents\LOTG-CODE101\Hermods\Programmering 1 - C#\Modul 5\Uppdrag 4\Projekt_Bussen\Projekt_Bussen\obj\Debug\Projekt_Bussen.csproj.AssemblyReference.cache
+C:\Users\iam\Documents\LOTG-CODE101\Hermods\Programmering 1 - C#\Modul 5\Uppdrag 4\Projekt_Bussen\Projekt_Bussen\obj\Debug\Projekt_Bussen.csproj.SuggestedBindingRedirects.cache
+C:\Users\iam\Documents\LOTG-CODE101\Hermods\Programmering 1 - C#\Modul 5\Uppdrag 4\Projekt_Bussen\Projekt_Bussen\obj\Debug\Projekt_Bussen.csproj.CoreCompileInputs.cache
+C:\Users\iam\Documents\LOTG-CODE101\Hermods\Programmering 1 - C#\Modul 5\Uppdrag 4\Projekt_Bussen\Projekt_Bussen\obj\Debug\Projekt_Bussen.exe
+C:\Users\iam\Documents\LOTG-CODE101\Hermods\Programmering 1 - C#\Modul 5\Uppdrag 4\Projekt_Bussen\Projekt_Bussen\obj\Debug\Projekt_Bussen.pdb

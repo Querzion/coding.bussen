@@ -1,0 +1,214 @@
+﻿
+    /*
+     *      EJ SKAPADE FUNKTIONER INOM KLASS PASSAGERARE
+     * 
+     *      Passagerare Addera Random 1, 5
+     *          Busshållplats 
+     *      
+     *      Passagerare ÅlderCheck Random 1, 115 
+     *      if ( under 10 ) 
+     *          Barn
+     *      else if ( +10 under 25) 
+     *          Ungdom
+     *      else if (+25 under 65) 
+     *          Vuxen
+     *      else if (65+)
+     *          Pensionär 
+     *      
+     *      Passagerare Biljett
+     *      if (ålder är Barn)
+     *          Barn (biljett - 100%)
+     *      else if (ålder är Ungdom)    
+     *          Ungdom (biljett - 25%)
+     *      else if (ålder är Vuxen)
+     *          Vuxen (biljett - 0%)
+     *      else if (ålder är Vuxen)
+     *          Pensionär (biljett - 50%)
+     *      
+     *      Passagerare Subtrahera Random 1, 5
+     *          x antal Passagegare kliver av.
+     *          
+     *      Se hur många passagegare som är på bussen / Se hur många lediga platser det är.
+     * -    Barn = x
+     * -    Ungdomar = x
+     * -    Vuxna = x
+     * -    Pensionärer = x
+     * -    Totalt = x
+     * -    Lediga Platser = x
+     *      
+     *      Passagerare Ålder Total
+     *      Barn + Ungdomar + Vuxna + Pensionärer = x
+     *      
+     *      Passagerare Ålder Genomsnitt
+     *      (Barn + Ungdomar + Vuxna + Pensionärer) / ålder.length = x
+     *      
+     *      Passagerare Ålder Högst
+     *      Array.Sort(ålder) display last. Borde fungera, i huvudet i varje fall. 
+     *      
+     *      Fordon Hastighet
+     *      Fordon Hastighet Öka
+     *      Fordon Hastighet Sänk
+     *      Fordon Hastighet Start
+     *      Fordon Hastighet Stop
+     *      
+     *      Timer https://stackoverflow.com/questions/64531146/running-a-function-at-random-intervals-c-sharp
+     *      för när passagerare helt random vill kliva utav.
+     * 
+     */
+
+
+            
+
+        /// <summary> Helt utav 
+        /// 
+        ///     Den förra länken fungerade inte alls, så jag fick leta lite till och hittade den här.
+        ///     https://www.youtube.com/watch?v=w3GV38KSM4I
+        ///
+        ///     Random Gender assigned to specific age groups. 
+        ///     
+        ///     0-12 -> Barn -> Pojke eller Flicka
+        ///     13-17 -> Ungdom -> Kille eller Tjej eller Icke-Binär
+        ///     18-64 -> Vuxen -> Man eller Kvinna eller Icke-Binär
+        ///     66+ -> Pensionär -> Gubbe eller Gumma eller Icke-Binär
+        /// 
+        ///     Tanken gällande pensionärer är att de räknas som man/kvinna i statistiken sen.
+        ///     
+        ///     Tittade precis på biljetter och hur länstrafiken räknar på åldrarna
+        ///     https://www.varmlandstrafik.se/varmlandstrafik/biljetter/vara-biljetter/priser-
+        /// 
+        ///     Ålder   Grupp   Biljett EnZon
+        ///     
+        ///     0-19    Skolungdom      27
+        ///     20-25   Ungdom          40
+        ///     26-64   Vuxen           45
+        ///     65+     Senior          27
+        ///     
+        ///     Jag hade tänkt sätta procent på priserna istället för att köra riktiga priser.
+        ///     Biljetter kostar mindre än jag minns dem som. Det var 78 kr för mig att åka enkel sist.   
+        /// 
+        ///             Barn            12.5%
+        ///             Ungdom          75%
+        ///             Vuxen           100%
+        ///             Senior          25%
+        ///             
+        ///     Nu tänker jag långt mycket längre än ett steg i taget. VILKET ÄR ETT PROBLEM!
+        ///     Detta är just varför jag började med att skapa menyn först och utgår från att bygga på den.
+        /// 
+        /// 
+        ///     NewPassenger :
+        ///     
+        ///     När den startar så kollar den om det först och främst finns platser kvar på bussen.
+        ///     Om bussen är full, så avfärdar den resenären.
+        ///     
+        ///     Annars fortsätt, minska sittplats med en, för att det genereras endast en passagerare i taget.
+        ///     Sedan generera en ålder mellan 0-125 år, (Det är inte helt osannolikt att folk blir så gamla)
+        ///     Denna siffra går sedan igenom en if statement vilket är att baserat på siffran så kommer 
+        ///     en benämnning så som barn, ungdom, vuxen eller pensionär att appliceras, samt att personen räknas.
+        ///     Efter det att personen räknas så startas nästa del, vilket är kön som också baseras på ålder.
+        /// 
+        /// 
+        /// </summary>
+
+
+        
+   //Metoder för betyget E
+
+        // foreach loop
+
+     
+
+        /*
+        public int calc_total_age()
+        {
+            //Beräkna den totala åldern. 
+            //För att koden ska fungera att köra så måste denna metod justeras, alternativt att man temporärt sätter metoden med void
+        }
+        //*/
+
+
+        
+
+
+
+        //  Metoder för betyget C
+
+        /*
+        public double calc_average_age()
+        {
+            //Betyg C
+            //Beräkna den genomsnittliga åldern. Kanske kan man tänka sig att denna metod ska returnera något annat värde än heltal?
+            //För att koden ska fungera att köra så måste denna metod justeras, alternativt att man temporärt sätter metoden med void
+        }
+        //*/
+
+        /*
+        public int max_age()
+        {
+            //Betyg C
+            //ta fram den passagerare med högst ålder. Detta ska ske med egen kod och är rätt klurigt.
+            //För att koden ska fungera att köra så måste denna metod justeras, alternativt att man temporärt sätter metoden med void
+        }
+        //*/
+
+        /*
+        public void find_age()
+        {
+            //Visa alla positioner med passagerare med en viss ålder
+            //Man kan också söka efter åldersgränser - exempelvis 55 till 67
+            //Betyg C
+            //Beskrivs i läroboken på sidan 147 och framåt (kodexempel på sidan 149)
+
+        }
+        //*/
+
+        /*
+        public void sort_buss()
+        {
+            //Sortera bussen efter ålder. Tänk på att du inte kan ha tomma positioner "mitt i" vektorn.
+            //Beskrivs i läroboken på sidan 147 och framåt (kodexempel på sidan 159)
+            //Man ska kunna sortera vektorn med bubble sort
+        }
+        //*/
+
+
+
+
+
+
+
+
+        //  Metoder för betyget A
+        //  NOTERA! För betyget A ska du inte jobba med heltal i vektorn utan objekt av klassen passagerare (som du skapar)
+
+        /*
+        public void print_sex()
+        {
+            //Betyg A
+            //Denna metod är nödvändigtvis inte svårare än andra metoder men kräver att man skapar en klass för passagerare.
+            //Skriv ut vilka positioner som har manliga respektive kvinnliga passagerare.
+        }
+        //*/
+
+        /*
+        public void poke()
+        {
+            //Betyg A
+            //Vilken passagerare ska vi peta på?
+            //Denna metod är valfri om man vill skoja till det lite, men är också bra ur lärosynpunkt.
+            //Denna metod ska anropa en passagerares metod för hur de reagerar om man petar på dom (eng: poke)
+            //Som ni kan läsa i projektbeskrivningen så får detta beteende baseras på ålder och kön.
+        }
+        //*/
+
+        /*
+        public void getting_off()
+        {
+            //Betyg A
+            //En passagerare kan stiga av
+            //Detta gör det svårare vid inmatning av nya passagerare (som sätter sig på första lediga plats)
+            //Sortering blir också klurigare
+            //Den mest lämpliga lösningen (men kanske inte mest realistisk) är att passagerare bakom den plats..
+            //.. som tillhörde den som lämnade bussen, får flytta fram en plats.
+            //Då finns aldrig någon tom plats mellan passagerare.
+        }
+        //*/
