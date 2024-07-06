@@ -1,2 +1,2 @@
 # Projekt_Bussen
-Programming project for the C# course.
+School project for a C# Programming course.
